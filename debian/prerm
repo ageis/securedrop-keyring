@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    remove|purge)
+	if command -v apt-key >/dev/null 2>&1 ; then
+		apt-key del A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+	fi
+	;;
+esac
+
+#DEBHELPER#
+
+exit0

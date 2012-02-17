@@ -1,0 +1,4 @@
+debian/files
+debian/torproject-keyring.debhelper.log
+debian/torproject-keyring.substvars
+debian/torproject-keyring/

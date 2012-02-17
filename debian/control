@@ -1,0 +1,13 @@
+Source: torproject-keyring
+Section: misc
+Maintainer: Peter Palfrader <weasel@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.2
+
+Package: torproject-keyring
+Priority: important
+Architecture: all
+Depends: gnupg (>= 1.0.6-4), ${shlibs:Depends}, ${misc:Depends}
+Description: GnuPG archive key of the deb.torproject.org repository
+ The deb.torproject.org repository digitally signs its Release files. This
+ package contains the current repository key used for that.
