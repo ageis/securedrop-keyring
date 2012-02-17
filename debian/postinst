@@ -3,7 +3,7 @@
 set -e
 
 if command -v apt-key >/dev/null 2>&1 ; then
-    apt-key add /usr/share/keyrings/torproject-keyring.gpg
+    apt-key add /usr/share/keyrings/deb.torproject.org-keyring.gpg
 fi
 
 #DEBHELPER#
