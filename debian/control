@@ -3,9 +3,9 @@ Section: misc
 Maintainer: Peter Palfrader <weasel@debian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.2
+Priority: important
 
 Package: deb.torproject.org-keyring
-Priority: important
 Architecture: all
 Depends: gnupg (>= 1.0.6-4), ${shlibs:Depends}, ${misc:Depends}
 Description: GnuPG archive key of the deb.torproject.org repository
