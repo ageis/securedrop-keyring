@@ -1,3 +1,9 @@
+deb.torproject.org-keyring (2014.08.31) unstable; urgency=medium
+
+  * Update key with new expire times (subkey expires 2018-08-30).
+
+ -- Peter Palfrader <weasel@debian.org>  Sun, 31 Aug 2014 18:21:45 +0200
+
 deb.torproject.org-keyring (2012.08.29) unstable; urgency=low
 
   * Update key with new expire times (subkey expires 2014-08-29).
