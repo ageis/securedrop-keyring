@@ -1,4 +1,4 @@
 debian/files
-debian/deb.torproject.org-keyring.debhelper.log
-debian/deb.torproject.org-keyring.substvars
-debian/deb.torproject.org-keyring/
+debian/apt.freedom.press-keyring.debhelper.log
+debian/apt.freedom.press-keyring.substvars
+debian/apt.freedom.press-keyring/

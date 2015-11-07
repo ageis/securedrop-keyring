@@ -1,13 +1,13 @@
-Source: deb.torproject.org-keyring
+Source: apt.freedom.press-keyring
 Section: misc
-Maintainer: Peter Palfrader <weasel@debian.org>
+Maintainer: SecureDrop Team <securedrop@freedom.press>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.2
 Priority: important
 
-Package: deb.torproject.org-keyring
+Package: apt.freedom.press-keyring
 Architecture: all
 Depends: gnupg (>= 1.0.6-4), ${shlibs:Depends}, ${misc:Depends}
-Description: GnuPG archive key of the deb.torproject.org repository
- The deb.torproject.org repository digitally signs its Release files. This
+Description: GnuPG archive key of the apt.freedom.press repository
+ The apt.freedom.press repository digitally signs its Release files. This
  package contains the current repository key used for that.

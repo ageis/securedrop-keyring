@@ -1,17 +1,5 @@
-deb.torproject.org-keyring (2014.08.31) unstable; urgency=medium
-
-  * Update key with new expire times (subkey expires 2018-08-30).
-
- -- Peter Palfrader <weasel@debian.org>  Sun, 31 Aug 2014 18:21:45 +0200
-
-deb.torproject.org-keyring (2012.08.29) unstable; urgency=low
-
-  * Update key with new expire times (subkey expires 2014-08-29).
-
- -- Peter Palfrader <weasel@debian.org>  Wed, 29 Aug 2012 17:26:07 +0200
-
-deb.torproject.org-keyring (2012.02.17) unstable; urgency=low
+apt.freedom.press-keyring (2015.11.07) stable; urgency=low
 
   * Initial release
 
- -- Peter Palfrader <weasel@debian.org>  Fri, 17 Feb 2012 16:39:59 +0100
+ -- Kevin Gallagher <kevin@freedom.press>  Sat, 7 Nov 2015 13:26:45 +0400
