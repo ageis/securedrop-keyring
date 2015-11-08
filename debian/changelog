@@ -1,5 +1,5 @@
-apt.freedom.press-keyring (2015.11.07) stable; urgency=low
+apt.freedom.press-keyring (2015.11.07) trusty; urgency=low
 
   * Initial release
 
- -- Kevin Gallagher <kevin@freedom.press>  Sat, 7 Nov 2015 13:26:45 +0400
+ -- Kevin Gallagher <kevin@freedom.press>  Sat, 07 Nov 2015 13:26:45 +0800

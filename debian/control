@@ -8,6 +8,6 @@ Priority: important
 Package: apt.freedom.press-keyring
 Architecture: all
 Depends: gnupg (>= 1.0.6-4), ${shlibs:Depends}, ${misc:Depends}
-Description: GnuPG archive key of the apt.freedom.press repository
+Description: GnuPG key for SecureDrop's apt.freedom.press repository
  The apt.freedom.press repository digitally signs its Release files. This
  package contains the current repository key used for that.

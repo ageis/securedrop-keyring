@@ -6,8 +6,18 @@ The source was forked from deb.torproject.org-keyring, which in turn is based on
 
 ## Building the package
 
-Requirements: `build-essential`
+Requirements: `build-essential` and/or `dpkg-dev` and `debhelper`
 
 Run the following command in the source directory:
 
         dpkg-buildpackage -us -uc
+
+This will output the .deb file to the parent directory.
+
+## Updating the repository signing key
+
+Export the armored and updated public key to `./keyrings/apt.freedom.press-keyring` and then run:
+
+	./update_keyring.sh
+
+This will update the changelog, update the removal hooks with the fingerprint, build the package, and initiate a git commit.
