@@ -5,7 +5,7 @@ set -e
 case "$1" in
     remove|purge)
 	if command -v apt-key >/dev/null 2>&1 ; then
-		apt-key del B89A29DB2128160B8E4B1B4CBADDE0C7FC9F6818
+		apt-key del FC9F6818
 	fi
 	;;
 esac
