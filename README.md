@@ -21,3 +21,5 @@ Export the armored and updated public key to `./keyrings/apt.freedom.press-keyri
 	./update_keyring.sh
 
 This will update the changelog, update the removal hooks with the fingerprint, build the package, and initiate a git commit.
+
+See [TESTING.md](TESTING.md) for some tips on how to test updates to this package.
