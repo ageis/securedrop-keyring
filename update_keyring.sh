@@ -1,5 +1,5 @@
 #!/bin/bash
-## Update ./keyrings/apt-freedom.press-keyring.gpg with an
+## Update ./keyrings/securedrop-keyring.gpg with an
 ## armored export of the new public key before running this script.
 ## Usage: ./update_keyring.sh
 
@@ -24,7 +24,7 @@ export DEBFULLNAME="${DEBFULLNAME:-SecureDrop Team}"
 # Update the changelog in the Debian package
 dch -v $DATE -D trusty -c debian/changelog
 
-key_fingerprint=$(gpg --keyid-format short keyrings/apt.freedom.press-keyring.gpg | grep "^pub" | head -1 | awk '{ print $2 }' | cut -d'/' -f2)
+key_fingerprint=$(gpg --keyid-format short keyrings/securedrop-keyring.gpg | grep "^pub" | head -1 | awk '{ print $2 }' | cut -d'/' -f2)
 # Update the removal hook with the key fingerprint
 sed -i "s/apt-key del .*/apt-key del $key_fingerprint/" debian/prerm
 

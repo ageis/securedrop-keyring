@@ -1,4 +1,4 @@
 debian/files
-debian/apt.freedom.press-keyring.debhelper.log
-debian/apt.freedom.press-keyring.substvars
-debian/apt.freedom.press-keyring/
+debian/securedrop-keyring.debhelper.log
+debian/securedrop-keyring.substvars
+debian/securedrop-keyring/

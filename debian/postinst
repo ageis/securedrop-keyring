@@ -3,7 +3,7 @@
 set -e
 
 if command -v apt-key >/dev/null 2>&1 ; then
-    apt-key add /usr/share/keyrings/apt.freedom.press-keyring.gpg
+    apt-key add /usr/share/keyrings/securedrop-keyring.gpg
 fi
 
 #DEBHELPER#
