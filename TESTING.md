@@ -16,4 +16,4 @@ After updating the key via the `update-keyring.sh` script, add the latest .deb t
 	aptly snapshot create keyring-2 from repo keyring
 	aptly publish switch trusty keyring-2
 
-Now run `apt-get update`. The newer package will be shown as available for update — the version number is incremented by date.
+Now run `apt-get update`. The newer package will be shown as available for update — the version number is incremented by date. After installation, you may run `apt-key list` to confirm the changes to apt's keyring.
